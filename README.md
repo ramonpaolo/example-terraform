@@ -42,4 +42,10 @@ Esse comando irá aplicar o seu código, como uma infraestrutura na AWS. Tanto q
 
 # Arquivos gerados pelo Terraform
 
-Após estar tudo ok, será gerado alguns arquivos no seu diretório, entre eles, o arquivo "terraform.tfstate" no qual terá em JSON, dados dos recursos/serviços que você criou na AWS, através do código, junto com o IP público da máquina entre outras várias informações
+Após estar tudo ok, será gerado alguns arquivos no seu diretório, entre eles, o arquivo "terraform.tfstate" no qual terá em JSON, dados dos recursos/serviços que você criou na AWS, através do código, junto com o IP público da máquina entre outras várias informações.
+
+# Ok, agora como faço para destruir?
+Basta rodar o comando:
+```bash
+$ terraform destroy
+```
