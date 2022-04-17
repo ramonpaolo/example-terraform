@@ -24,6 +24,7 @@ resource "aws_instance" "app_server" {
   instance_type = "t2.micro"
 
   tags = {
-    "Name" = "teste_com_terraform"
+    //Usando váriavel para nomear a Tag Name
+    "Name" = var.instance_name
   }
 }

@@ -35,7 +35,11 @@ Após isso, execute o comando:
 ```bash
 $ terraform apply
 ```
-
+ou
+caso deseje setar um nome próprio, execute o comando:
+```bash
+$ terraform apply -var 'instance_name=OutroNome'
+```
 Esse comando irá aplicar o seu código, como uma infraestrutura na AWS. Tanto que após você ver que a criação foi feita com sucesso no terminal, basta ir no console da AWS e lá você verá a sua intância rodando.
 
 ---
