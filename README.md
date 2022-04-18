@@ -48,6 +48,17 @@ Esse comando irá aplicar o seu código, como uma infraestrutura na AWS. Tanto q
 
 Após estar tudo ok, será gerado alguns arquivos no seu diretório, entre eles, o arquivo "terraform.tfstate" no qual terá em JSON, dados dos recursos/serviços que você criou na AWS, através do código, junto com o IP público da máquina entre outras várias informações.
 
+# Dados de saída
+O terraform, com os 'outputs' configurados, consegue pegar o dado específico de retorno, e isso é muito bom.
+Porém, caso você deseje ver novamente, bonitinho no terminal esses dados, basta rodar o comando:
+```bash
+$ terraform output
+
+#ou
+
+$ terraform output instance_ip_public
+```
+
 # Ok, agora como faço para destruir?
 Basta rodar o comando:
 ```bash
