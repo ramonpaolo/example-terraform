@@ -1,13 +1,13 @@
 // Bloco de configuração do Terraform
 // Diz qual plugin deve baixar para funcionar
-# terraform {
-#   // Providers necessários
-#   required_providers {
-#     aws = {
-#       source  = "hashicorp/aws"
-#     }
-#   }
-# }
+terraform {
+  // Providers necessários
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+    }
+  }
+}
 
 // Providencia toda a configuração do plugin que baixamos
 provider "aws" {
