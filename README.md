@@ -64,3 +64,7 @@ Basta rodar o comando:
 ```bash
 $ terraform destroy
 ```
+
+# Dicas
+Caso deseje, recomendo estudar sobre o Terraform Cloud, que é um PaaS, igualzinho o Heroku, porém, ao invés de ser uma aplicação backend/frontend, você bota seus códigos terraform para infraestrutura.
+O uso é gratuito, e você terá a segurança e comodidade para fazer o deploy da sua infraestrutura.
